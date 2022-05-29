@@ -43,7 +43,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           <div>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQHIU0sTXFFM--H3mrX4uq1cMwmYN96FJ4Q&usqp=CAU"
+              src="https://images.assetsdelivery.com/compings_v2/adnanjaya/adnanjaya2002/adnanjaya200200441.jpg"
               alt=""
               style={{ height: "40px", borderRadius: "10px" }}
             />
@@ -115,7 +115,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://asutoshblog.hashnode.dev/"
+                href="https://medium.com/@bhushanravi530"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -125,7 +125,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/asutoshb"
+                href="https://github.com/bhushanravi1996"
                 target="_blank"
                 className="fork-btn-inner"
               >

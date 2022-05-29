@@ -5,7 +5,10 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
-import Asutosh from '../../Assets/Asutosh3.png'
+
+ import ravi from "../../Assets/ravi.jpg"
+ import bhushan from "../../Assets/bhushan.jpg"
+
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -40,7 +43,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-down">
               <Tilt>
-              <img style={{borderRadius: "160px"}} src={Asutosh} alt="home pic" className="img-fluid" />
+              <img style={{borderRadius: "175px"}} src={bhushan} alt="home pic" className="img-fluid" />
               </Tilt>
             </Col>
           </Row>

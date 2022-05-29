@@ -16,13 +16,13 @@ export const Contact = () => {
              <br />
              <div style={{display: 'grid', marginLeft: 'auto', marginRight:'auto', width:'300px', gridTemplateColumns:'30% 30% 30%'}}>
               <div>
-              <a href="https://github.com/asutoshb" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '40px', width: '40px'}} /> </a>
+              <a href="https://github.com/bhushanravi1996" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '40px', width: '40px'}} /> </a>
               </div>
               <div>
-                <a href="https://twitter.com/asutoshbehera5" style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
+                <a href="" style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/asutosh-behera-491908190/" style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '40px', width: '40px'}} /></a>
+                <a href="https://www.linkedin.com/in/ravi-bhushan-517566236/" style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '40px', width: '40px'}} /></a>
               </div>
           </div>
           <br/>

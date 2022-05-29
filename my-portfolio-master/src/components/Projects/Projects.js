@@ -4,13 +4,16 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 
-import Medium from "../../Assets/Projects/Medium.png";
+
 // import emotion from "../../Assets/Projects/emotion.jpeg";
-import Frontend from "../../Assets/Projects/Frontend.png";
-import Grocery from "../../Assets/Projects/Grocery.png";
+
+
 // import suicide from "../../Assets/Projects/suicide.png";
-import Tictac from "../../Assets/Projects/Tictac.png";
-import Quora from "../../Assets/Projects/Quora.png";
+
+
+import Indiamart from "../../Assets/Projects/Indiamart.png";
+import Dunzo from "../../Assets/Projects/Dunzo.png"
+import Kimaye from "../../Assets/Projects/Kimaye.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Projects() {
@@ -32,44 +35,44 @@ function Projects() {
 
           <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
-              imgPath={Quora}
+              imgPath={Indiamart}
               isBlog={false}
-              title="Quora Clone "
-              description="Quora is a place to gain and share knowledge. It’s a platform to ask questions and connect with people who contribute unique insights and answers. "
-              tech="ReactJs  |  Firebase  |  NodeJs  |  CSS | JavaScript"
-              link="https://github.com/santoshmcode/quora-clone"
-              linkmedium="https://asutoshblog.hashnode.dev/experience-of-cloning-quora"
-              linklive="https://quora-app.netlify.app/"
+              title="IndiaMart Clone "
+              description="IndiaMart is an ecommerce website which provides cosmetics products to user "
+              tech="HTML  |  CSS  |  JavaScript "
+              link="https://github.com/pandeyratnesh1997/UNIT-2-CW-PROJECT-_INDIAMART"
+              linkmedium=""
+              linklive=""
             />
           </Col>
 
           <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
-              imgPath={Medium}
+              imgPath={Dunzo}
               isBlog={false}
-              title="Medium Clone "
-              description="Medium is an American blog website where users can read blogs written by people around the world and can write their blog as well"
-              tech="ReactJs  |  MongoDB  |  NodeJs  |  CSS"
-              link="https://github.com/shivam-singh-au17/ProjectMediumClone"
-              linkmedium="https://asutoshblog.hashnode.dev/medium-clone"
-              linklive="https://mediumapp.vercel.app/"
+              title="Dunzo Clone "
+              description="Dunzo is a web application to deliver grocreries,fruits,vegetables,meat etc"
+              tech="HTML  |  CSS  |  JavaScript  "
+              link="https://github.com/Rounak-09/Dunzo"
+              linkmedium=""
+              linklive="https://stirring-mandazi-87d93f.netlify.app/"
             />
           </Col>
 
           <Col md={5} className="project-card" data-aos="fade-up">
             <ProjectCard
-              imgPath={Frontend}
+              imgPath={Kimaye}
               isBlog={false}
-              title="Frontend masters Clone"
-              description="Frontend masters is an E-learning platform which provides frontend courses available in the market to its users"
-              tech="Express  |  MongoDB  |  NodeJs  |  CSS"
-              link="https://github.com/asutoshb/Frontend-Masters"
-              linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
-              linklive="https://project-frontend-clone.herokuapp.com/"
+              title="Kimaye Clone"
+              description="Kimaye is online fruit ordering platform in Mumbai and it is a promise of consistently delivering the safest and superior quality fruits."
+              tech="ReactJs  |  JavaScript  |  HTML  |  CSS"
+              link="https://github.com/SankalpJaiswal/kimaye-clone.git"
+              linkmedium=""
+              linklive="https://dazzling-yeot-ee9a66.netlify.app/"
             />
           </Col>
 
-          <Col md={5} className="project-card" data-aos="fade-down">
+          {/* <Col md={5} className="project-card" data-aos="fade-down">
             <ProjectCard
               imgPath={Grocery}
               isBlog={false}
@@ -80,9 +83,9 @@ function Projects() {
               linkmedium=""
               linklive="https://asutoshb.github.io/grocery-store/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={5} className="project-card" data-aos="fade-right">
+          {/* <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
               imgPath={Tictac}
               isBlog={false}
@@ -93,7 +96,7 @@ function Projects() {
               linkmedium="#"
               linklive="https://asutoshb.github.io/Tic-Tac-Toe-react/"
             />
-          </Col>
+          </Col> */}
 
 
         </Row>
