@@ -33,7 +33,7 @@ function Home2() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Ravi Bhushan </span>
-            from <span className="purple"> Bihar, Muzaffarpur, India.</span>
+            from <span className="purple"> Muzaffarpur, Bihar, India.</span>
             {/* <br /> I have completed my graduation in Electronics Engineering. */}<br/><br />
             A highly dedicated and passionate full-stack web developer with excellent administrative and communication skills and the ability to write efficient code.
             Looking forward to an exciting opportunity in a challenging role as a full-stack developer
@@ -94,13 +94,13 @@ function Home2() {
             <h1>FIND ME ON</h1>
             <div style={{display: 'grid', marginLeft: 'auto', marginRight:'auto', width:'300px', gridTemplateColumns:'30% 30% 30%'}}>
               <div>
-              <a href="https://github.com/bhushanravi1996" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '40px', width: '40px'}} /> </a>
+              <a href="https://github.com/bhushanravi1996" target={"_blank"} style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '40px', width: '40px'}} /> </a>
               </div>
               <div>
-                <a href="" style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
+                <a href="https://twitter.com/RAVIBHU07369044" target={"_blank"} style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/ravi-bhushan-517566236/" style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '40px', width: '40px'}} /></a>
+                <a href="https://www.linkedin.com/in/ravi-bhushan-517566236/" target={"_blank"} style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '40px', width: '40px'}} /></a>
               </div>
           </div>
           <br/>

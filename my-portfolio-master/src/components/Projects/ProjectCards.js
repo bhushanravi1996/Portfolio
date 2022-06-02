@@ -44,13 +44,13 @@ function ProjectCards(props) {
 
           <div style={{display: 'flex', justifyContent:'space-evenly'}}>
             <div>
-             <a href={props.link} style={{textDecoration: 'none', color:'white'}}> <AiFillGithub  style={{height: '40px', width: '40px'}} /> </a>
+             <a href={props.link} target={"_blank"} style={{textDecoration: 'none', color:'white'}}> <AiFillGithub  style={{height: '40px', width: '40px'}} /> </a>
             </div>
-            <div>
+            {/* <div>
               <a href={props.linkmedium} style={{textDecoration: 'none', color:'white'}}><SiHashnode   style={{height: '40px', width: '40px'}} /></a>
-            </div>
+            </div> */}
             <div>
-              <a href={props.linklive} style={{textDecoration: 'none', color:'white'}}><BsBoxArrowUpRight   style={{height: '40px', width: '40px'}} /></a>
+              <a href={props.linklive} target={"_blank"}  style={{textDecoration: 'none', color:'white'}}><BsBoxArrowUpRight   style={{height: '40px', width: '40px'}} /></a>
             </div>
           </div>
 

@@ -42,7 +42,7 @@ function Projects() {
               tech="HTML  |  CSS  |  JavaScript "
               link="https://github.com/pandeyratnesh1997/UNIT-2-CW-PROJECT-_INDIAMART"
               linkmedium=""
-              linklive=""
+              linklive="https://indiamartcloned.netlify.app/"
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               imgPath={Dunzo}
               isBlog={false}
               title="Dunzo Clone "
-              description="Dunzo is a web application to deliver grocreries,fruits,vegetables,meat etc"
+              description="Dunzo is a web application to deliver grocreries, fruits, vegetables, meat etc"
               tech="HTML  |  CSS  |  JavaScript  "
               link="https://github.com/Rounak-09/Dunzo"
               linkmedium=""

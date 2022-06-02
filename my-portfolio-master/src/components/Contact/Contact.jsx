@@ -1,28 +1,33 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import TransitionsModal from '../Modal/ContactModal'
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from '../Particle';
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 export const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1200 });
+  });
     return (
-        <div>
-            <Container fluid className="contact-section">
-                <Particle />
-                <Container fluid>
-             <h1>FIND ME ON</h1>
-             <br />
-             <div style={{display: 'grid', marginLeft: 'auto', marginRight:'auto', width:'300px', gridTemplateColumns:'30% 30% 30%'}}>
+      <Container fluid className="home-about-section" id="about">
+         <Particle />
+      <Container fluid>
+         <Row>
+          <Col md={12} className="home-about-social" data-aos="fade-up">
+            <h1>FIND ME ON</h1>
+            <div style={{display: 'grid', marginLeft: 'auto', marginRight:'auto', width:'300px', gridTemplateColumns:'30% 30% 30%'}}>
               <div>
-              <a href="https://github.com/bhushanravi1996" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '40px', width: '40px'}} /> </a>
+              <a href="https://github.com/bhushanravi1996" target={"_blank"}  style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '40px', width: '40px'}} /> </a>
               </div>
               <div>
-                <a href="" style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
+                <a href="https://twitter.com/RAVIBHU07369044" target={"_blank"} style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/ravi-bhushan-517566236/" style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '40px', width: '40px'}} /></a>
+                <a href="https://www.linkedin.com/in/ravi-bhushan-517566236/" target={"_blank"} style={{textDecoration: 'none', color:'white'}}><FaLinkedinIn style={{height: '40px', width: '40px'}} /></a>
               </div>
           </div>
           <br/>
@@ -30,7 +35,6 @@ export const Contact = () => {
               Feel free to <span className="purple">connect </span>with me
             </p>
             
-          
             
             <h3>
               Contact No:
@@ -57,8 +61,10 @@ export const Contact = () => {
             </h3>
             <br /> <br />
             <TransitionsModal />
-            </Container>
-            </Container>
-        </div>
+          </Col>
+        </Row>
+         </Container>
+     </Container>
+       
     )
 }
