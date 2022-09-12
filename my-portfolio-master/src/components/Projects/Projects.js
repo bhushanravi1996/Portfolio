@@ -14,6 +14,7 @@ import Particle from "../Particle";
 import Indiamart from "../../Assets/Projects/Indiamart.png";
 import Dunzo from "../../Assets/Projects/Dunzo.png"
 import Kimaye from "../../Assets/Projects/Kimaye.png"
+import Olx from "../../Assets/Projects/Olx.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Projects() {
@@ -38,7 +39,7 @@ function Projects() {
               imgPath={Indiamart}
               isBlog={false}
               title="IndiaMart Clone "
-              description="IndiaMart is an ecommerce website which provides cosmetics products to user "
+              description="IndiaMart is an ecommerce website which provides cosmetics products to user. "
               tech="HTML  |  CSS  |  JavaScript "
               link="https://github.com/pandeyratnesh1997/UNIT-2-CW-PROJECT-_INDIAMART"
               linkmedium=""
@@ -51,7 +52,7 @@ function Projects() {
               imgPath={Dunzo}
               isBlog={false}
               title="Dunzo Clone "
-              description="Dunzo is a web application to deliver grocreries, fruits, vegetables, meat etc"
+              description="Dunzo is a web application to deliver grocreries, fruits, vegetables, meat etc."
               tech="HTML  |  CSS  |  JavaScript  "
               link="https://github.com/Rounak-09/Dunzo"
               linkmedium=""
@@ -72,18 +73,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={5} className="project-card" data-aos="fade-down">
+          <Col md={5} className="project-card" data-aos="fade-down">
             <ProjectCard
-              imgPath={Grocery}
+              imgPath={Olx}
               isBlog={false}
-              title="Grocery App"
-              description="A simple grocery management application for users"
-              tech="ReactJs  |  CSS"
-              link="https://github.com/asutoshb/grocery-store"
+              title="Olx Clone"
+              description="The OLX marketplace is a platform for buying and selling services and goods such as electronics, fashion items, furniture, household goods, cars and bikes."
+              tech="ReactJs  |  JavaScript  |  HTML  |  CSS  | ReduxJs"
+              link="https://github.com/Rupesh4003/aberrant-texture-2801"
               linkmedium=""
-              linklive="https://asutoshb.github.io/grocery-store/"
+              linklive="https://aberrant-texture-2801.netlify.app/"
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard

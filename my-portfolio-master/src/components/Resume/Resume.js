@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Resumeravi.pdf";
+import pdf from "../../Assets/Updatedresumeravi.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";

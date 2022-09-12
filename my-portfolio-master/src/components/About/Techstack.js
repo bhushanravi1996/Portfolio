@@ -5,7 +5,7 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  DiCss3,
   DiPython,
   DiGit,
 } from "react-icons/di";
@@ -31,8 +31,8 @@ function Techstack() {
         <p style={{fontSize:"20px", marginTop: "10px" }}>REACT</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <p style={{fontSize:"20px", marginTop: "10px" }}>MONGODB</p>
+        <DiCss3 />
+        <p style={{fontSize:"20px", marginTop: "10px" }}>CSS</p>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
