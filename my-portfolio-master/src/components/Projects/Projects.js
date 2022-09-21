@@ -82,7 +82,7 @@ function Projects() {
               tech="ReactJs  |  JavaScript  |  HTML  |  CSS  | ReduxJs"
               link="https://github.com/Rupesh4003/aberrant-texture-2801"
               linkmedium=""
-              linklive="https://aberrant-texture-2801.netlify.app/"
+              linklive="https://olx-in.vercel.app/"
             />
           </Col>
 
